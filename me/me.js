@@ -16,12 +16,20 @@ var data = Highcharts.reduce(lines, function (arr, word) {
 }, []);
 
 Highcharts.chart('worcloud-container', {
-    series: [{
-        type: 'wordcloud',
-        data: data,
-        name: 'Occurrences'
-    }],
-    title: {
-        text: 'Wordcloud of Lorem Ipsum'
-    }
+  series: [{
+      type: 'wordcloud',
+      data: data,
+      rotation: {
+          from: 0,
+          to: 0,
+      },
+      minFontSize: 7,
+      style: {
+  fontFamily: 'Arial',
+},
+      name: 'Occurrences'
+  }],
+  title: {
+      text: 'Wordcloud of Lorem Ipsum'
+  }
 });

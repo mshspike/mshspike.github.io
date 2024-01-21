@@ -1,0 +1,39 @@
+table {
+  margin-left: -30px;
+}
+
+table td {
+  padding: 3px;
+  width: 200px;
+  font-size: 18px;
+}
+
+td.left-cell {
+  text-align: right;
+}
+
+td.right-cell {
+  font-weight: bold;
+}
+
+.name-row {
+  padding-bottom: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  width:100%;
+  text-align: center;
+}
+
+.link-row a {
+  display:block;
+  color:black;
+  text-decoration: none;
+}
+
+.link-row:hover {
+  cursor: pointer;
+}
+
+.link-row:hover td.right-cell a {
+  color: blue;
+}
