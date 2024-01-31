@@ -1,11 +1,10 @@
 table {
-  margin-left: -30px;
+  margin-left: 30px;
 }
-
 table td {
   padding: 3px;
-  width: 200px;
   font-size: 18px;
+  border:none;
 }
 
 td.left-cell {
@@ -17,7 +16,7 @@ td.right-cell {
 }
 
 .name-row {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   font-size: 35px;
   font-weight: bold;
   width:100%;
@@ -28,10 +27,6 @@ td.right-cell {
   display:block;
   color:black;
   text-decoration: none;
-}
-
-.link-row:hover {
-  cursor: pointer;
 }
 
 .link-row:hover td.right-cell a {
